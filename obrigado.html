@@ -48,7 +48,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/netlify-identity-widget@2.0.16/build/netlify-identity.min.js"></script>
     <script src="nav.js" defer></script>
-        const dados = JSON.parse(sessionStorage.getItem('obrigado_dados'));
+    <script>
+        const dados = JSON.parse(localStorage.getItem('obrigado_dados'));
         const msg = document.getElementById('mensagemObrigado');
         if (dados && msg) {
             msg.textContent = 'Obrigado por se inscrever, ' + dados.nome + '! Agora você tem acesso aos downloads exclusivos dos episódios de Demon Slayer. Volte para a página de episódios e aproveite!';

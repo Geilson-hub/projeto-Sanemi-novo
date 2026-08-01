@@ -6,7 +6,7 @@
                 return true;
             }
         }
-        return sessionStorage.getItem('inscrito') === 'true';
+        return localStorage.getItem('inscrito') === 'true';
     }
 
     isLoggedIn().then(function (inscrito) {
