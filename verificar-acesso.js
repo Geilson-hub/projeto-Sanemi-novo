@@ -25,7 +25,7 @@
             if (!inscrito) {
                 var placeholder = document.createElement('p');
                 placeholder.className = 'download-placeholder';
-                placeholder.textContent = '\U0001F512 Faça sua inscrição para ter acesso ao download deste episódio.';
+                placeholder.textContent = '🔒Faça sua inscrição para ter acesso ao download deste episódio.';
                 section.appendChild(placeholder);
             }
         });
