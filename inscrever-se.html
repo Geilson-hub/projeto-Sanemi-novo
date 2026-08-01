@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Inscreva-se | Demon Slayer Brasil</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-nav">
+            <a class="sempre-header" href="index.html">Início</a>
+            <a class="sempre-header" href="episodios.html">Episódios</a>
+            <a class="sempre-header" href="filmes.html">Filmes</a>
+            <a class="sempre-header" href="Hashiras.html">Hashiras</a>
+            <a class="sempre-header" href="Rank.html">Luas Superiores</a>
+            <a class="sempre-header" href="login.html">Login</a>
+            <button class="botao1" id="btnInscrever">inscreva-se</button>
+            <button class="botao1" id="btnLogin" style="display:none;">login</button>
+            <button class="botao1" id="btnSair" style="display:none;">sair</button>
+        </div>
+    </header>
+
+    <main class="container-inscrever">
+        <div class="inscrever-card">
+            <div class="inscrever-badge">FAN SITE OFICIAL</div>
+            <h1 class="inscrever-title">Faça sua Inscrição</h1>
+            <p class="inscrever-desc">
+                Cadastre-se e tenha acesso a downloads exclusivos e à visualização completa dos episódios de Demon Slayer.
+            </p>
+
+            <form id="formInscrever" class="inscrever-form">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="senha">Senha de Acesso</label>
+                    <input type="password" id="senha" name="senha" placeholder="Crie uma senha" required minlength="6">
+                </div>
+
+                <button type="submit" class="butao2">Inscrever-se</button>
+            </form>
+
+            <p class="inscrever-aviso" id="avisoInscricao">
+                Ao se inscrever, você receberá um e-mail de confirmação e terá acesso completo aos downloads e à visualização completa dos episódios do site.
+            </p>
+            <p class="inscrever-aviso">
+                Já é inscrito? <a href="login.html">Faça login</a> para acessar os downloads e a visualização completa dos episódios.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Demon Slayer Brasil | Site Criado por Fãs para Fãs</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/netlify-identity-widget@2.0.16/build/netlify-identity.min.js"></script>
+    <script src="nav.js" defer></script>
+    <script src="inscrever.js" defer></script>
+</body>
+
+</html>

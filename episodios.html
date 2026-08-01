@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Episódios | Demon Slayer Brasil</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-nav">
+            <a class="sempre-header" href="index.html">Início</a>
+            <a class="sempre-header active-link" href="episodios.html">Episódios</a>
+            <a class="sempre-header" href="filmes.html">Filmes</a>
+            <a class="sempre-header" href="Hashiras.html">Hashiras</a>
+            <a class="sempre-header" href="Rank.html">Luas Superiores</a>
+            <a class="sempre-header" href="login.html">Login</a>
+            <button class="botao1" id="btnInscrever">inscreva-se</button>
+            <button class="botao1" id="btnLogin" style="display:none;">login</button>
+            <button class="botao1" id="btnSair" style="display:none;">sair</button>
+        </div>
+
+        <div class="header-titulo">
+            <h1 class="titulo2">Episódios</h1>
+            <p>Assista aos episódios mais recentes da sua série favorita.</p>
+        </div>
+    </header>
+
+    <main class="container-anime">
+        <div class="botoes-temporadas">
+            <button class="tablink active" onclick="abrirTemporada(event, 'Temporada1')">1ª Temporada</button>
+            <button class="tablink" onclick="abrirTemporada(event, 'Temporada2')">2ª Temporada</button>
+            <button class="tablink" onclick="abrirTemporada(event, 'Temporada3')">3ª Temporada</button>
+        </div>
+
+        <!-- ABA TEMPORADA 1 -->
+        <div id="Temporada1" class="tabcontent active">
+            <h2 class="titulo-temporada">Primeira Temporada</h2>
+
+            <section class="episódio" data-epnum="1">
+                <h2>Episódio 1: Crueldade</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x1.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x1: Tanjiro volta para casa e encontra sua família brutalmente assassinada por um demônio.
+                            Ele descobre que sua irmã Nezuko sobreviveu, mas foi transformada em um demônio.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x1.mp4" download class="download-link">⬇ Baixar Episódio 1</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="2">
+                <h2>Episódio 2: Sakonji Urokodaki, o treinador</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x2.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x2: Tanjiro e Nezuko partem para o Monte Sagiri para buscar ajuda de Sakonji Urokodaki, um
+                            antigo
+                            treinador. Um confronto com Giyu Tomioka, o Caçador de Demônios, acontece, mas ele se
+                            surpreende ao ver que Nezuko não ataca Tanjiro e o poupa, indicando o caminho para
+                            Urokodaki.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x2.mp4" download class="download-link">⬇ Baixar Episódio 2</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="3">
+                <h2>Episódio 3: Sabito e Makomo</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x3.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x3: Sob a orientação de Sakonji, Tanjiro treina para se tornar um Caçador de Demônios,
+                            enfrentando
+                            desafios físicos e mentais. Ele é guiado por dois jovens fantasmas, Sabito e Makomo, que o
+                            ensinam a dominar a
+                            arte da respiração e da espada.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x3.mp4" download class="download-link">⬇ Baixar Episódio 3</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="4">
+                <h2>Episódio 4: Seleção Final</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x4.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x4: A Seleção Final, um teste de sobrevivência, começa. Os candidatos precisam enfrentar uma
+                            série de demônios em uma área isolada. Tanjiro, junto com outros três sobreviventes, é
+                            considerado digno de se tornar um
+                            Caçador de Demônios.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x4.mp4" download class="download-link">⬇ Baixar Episódio 4</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="5">
+                <h2>Episódio 5: Meu próprio aço</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x5.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x5: Tanjiro e os outros sobreviventes escolhem um mineral para forjar suas katanas.
+                            Ele finalmente reencontra Nezuko, que estava em um estado de coma, e recebe sua espada, que
+                            tem
+                            uma misteriosa coloração preta. Um corvo aparece e dá a Tanjiro sua primeira missão:
+                            investigar o desaparecimento de
+                            jovens em uma cidade próxima.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x5.mp4" download class="download-link">⬇ Baixar Episódio 5</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="6">
+                <h2>Episodio 6: O espadachi que acompanha um oni</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x6.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x6: Tanjiro recebe sua primeira missão oficial como membro do Corpo de Caçadores de
+                            Demônios.
+                            Ele
+                            parte para uma cidade onde várias jovens desapareceram misteriosamente. 👤 Lá, encontra
+                            Kazumi,
+                            um rapaz desesperado porque sua noiva foi uma das vítimas. 👹 Tanjiro descobre que o
+                            responsável
+                            é um demônio capaz de se mover pelas sombras e sequestrar
+                            garotas sem deixar rastros. ⚔️ Com Nezuko protegida dentro da caixa feita por Urokodaki,
+                            Tanjiro
+                            enfrenta o desafio de
+                            rastrear esse inimigo astuto, colocando à prova suas novas habilidades e sua determinação
+                            como
+                            caçador.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x6.mp4" download class="download-link">⬇ Baixar Episódio 6</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="7">
+                <h2>Episodio 7: Kibutsuji Muzan</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x7.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x7: Tanjiro parte para Asakusa em sua nova missão e, usando seu olfato aguçado, acaba
+                            encontrando o próprio Muzan Kibutsuji, o demônio que transformou Nezuko e que é a origem de
+                            todos os onis. A revelação é surpreendente: Muzan vive disfarçado como humano, com esposa e
+                            filha,
+                            mostrando sua habilidade de se esconder entre pessoas comuns.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x7.mp4" download class="download-link">⬇ Baixar Episódio 7</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="8">
+                <h2>Episodio 8: O cheiro de sangue encantador</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x8.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x8: Tanjiro, após conhecer Tamayo e Yushiro, descobre que existem demônios capazes de viver
+                            sem
+                            devorar humanos. Enquanto eles explicam mais sobre Muzan e sua influência, dois demônios
+                            enviados por ele — Susamaru e Yahaba — aparecem para atacar.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x8.mp4" download class="download-link">⬇ Baixar Episódio 8</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="9">
+                <h2>Episodio 9: Demônios Temari e Flecha</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x9.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x9: Tanjiro enfrenta Susamaru e Yahaba, demônios enviados por Muzan. A luta é intensa, com
+                            ataques de bolas de temari e flechas invisíveis que distorcem o espaço. Nezuko mostra sua
+                            força,
+                            e Tamayo e Yushiro ajudam com suas habilidades únicas.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x9.mp4" download class="download-link">⬇ Baixar Episódio 9</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="10">
+                <h2>Episodio 10: Sempre juntos</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x9.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x10: A batalha continua. Tanjiro usa sua inteligência e técnicas de respiração para superar
+                            os
+                            ataques complexos de Yahaba. Nezuko luta bravamente contra Susamaru, mostrando que, mesmo
+                            como
+                            demônio, ela protege os humanos. No fim, Tanjiro vence, mas fica exausto.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x10.mp4" download class="download-link">⬇ Baixar Episódio 10</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="11">
+                <h2>Episodio 11: O tambor da mansão</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x11.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x11: Tanjiro recebe uma nova missão e encontra dois personagens importantes: Zenitsu
+                            Agatsuma,
+                            um caçador covarde mas com grande potencial, e Inosuke Hashibira, selvagem e agressivo. Eles
+                            entram em uma mansão misteriosa controlada por um demônio que manipula o espaço com tambores
+                        </p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x11.mp4" download class="download-link">⬇ Baixar Episódio 11</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="12">
+                <h2>Episodio 12: O javali mostra suas presas, e Zenitsu dorme</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x12.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x12: Dentro da mansão, Tanjiro enfrenta o demônio dos tambores, que muda a posição dos
+                            cômodos.
+                            Zenitsu, mesmo em pânico, revela sua força quando adormece e executa uma técnica poderosa.
+                            Inosuke mostra sua brutalidade, mas também sua habilidade de combate.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x12.mp4" download class="download-link">⬇ Baixar Episódio 12</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="13">
+                <h2>Episodio 13: Algo mais importante que a vida</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x13.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x13: Tanjiro derrota o demônio dos tambores, que revela sua história trágica antes de
+                            morrer.
+                            Zenitsu protege Nezuko com coragem, mostrando que, apesar de seu medo, ele valoriza
+                            profundamente a vida e os laços que cria.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x13.mp4" download class="download-link">⬇ Baixar Episódio 13</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="14">
+                <h2>Episodio 14: Tarefas de recuperação</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x14.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x14: Após a batalha, Tanjiro, Zenitsu e Inosuke descansam em uma casa protegida por
+                            caçadores.
+                            Nezuko continua sendo alvo de desconfiança, mas Tanjiro defende sua irmã. O episódio mostra
+                            o
+                            fortalecimento dos laços entre os novos companheiros.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x14.mp4" download class="download-link">⬇ Baixar Episódio 14</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="15">
+                <h2>Episodio 15: Montanha Natagumo</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x15.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x15:O grupo recebe uma nova missão e parte para a Montanha Natagumo, onde encontram uma
+                            família
+                            de demônios aranha. O ambiente é assustador e perigoso, marcando o início de uma das
+                            batalhas
+                            mais intensas da temporada.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x15.mp4" download class="download-link">⬇ Baixar Episódio 15</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="16">
+                <h2>Episodio 16: Deixando alguém para trás</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x16.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x16: Tanjiro e Inosuke enfrentam os demônios-aranha na Montanha Natagumo. A luta mostra a
+                            crueldade da “família aranha” e a dificuldade de enfrentar inimigos que trabalham em
+                            conjunto.
+                            Zenitsu também precisa lidar com sua própria batalha contra o “irmão aranha.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x16.mp4" download class="download-link">⬇ Baixar Episódio 16</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="17">
+                <h2>Episodio 17: Você deve se tornar o mestre de si mesmo</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x17.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x17: Zenitsu, mesmo em pânico, luta contra o demônio-aranha que controla veneno. Ao
+                            adormecer, ele revela sua técnica de Respiração do Trovão, derrotando o inimigo com um golpe
+                            impressionante, mas fica gravemente envenenado.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x17.mp4" download class="download-link">⬇ Baixar Episódio 17</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="18">
+                <h2>Episodio 18: Uma forja de laços</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x18.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x18: Tanjiro e Inosuke enfrentam o “pai aranha”, um demônio monstruoso e brutal. A batalha é
+                            intensa e mostra a força de Inosuke, mas também seus limites. Tanjiro precisa usar toda sua
+                            habilidade para sobreviver.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x18.mp4" download class="download-link">⬇ Baixar Episódio 18</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="19">
+                <h2>Episodio 19: Hinokami</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x19.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x19: Um dos episódios mais marcantes da série. Tanjiro enfrenta Rui, o “filho aranha” e
+                            membro das Doze Luas Demoníacas. Em meio ao desespero, Tanjiro desperta a técnica da
+                            Respiração do Sol (Hinokami Kagura), herdada de seu pai. Nezuko também desperta seu poder de
+                            sangue demoníaco, ajudando na vitória.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x19.mp4" download class="download-link">⬇ Baixar Episódio 19</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="20">
+                <h2>Episodio 20: Finja que você é o pai</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/1x20.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>1x20: A luta contra Rui continua. Mesmo após o golpe de Tanjiro, Rui mostra sua força e
+                            crueldade. Os Caçadores de Demônios da elite, os Hashiras, começam a aparecer, mostrando que
+                            o combate está além do nível dos jovens caçadores.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/1x20.mp4" download class="download-link">⬇ Baixar Episódio 20</a>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- ABA TEMPORADA 2 -->
+        <div id="Temporada2" class="tabcontent">
+            <h2 class="titulo-temporada">Segunda Temporada: Arco do Distrito do Entretenimento</h2>
+
+            <section class="episódio" data-epnum="21">
+                <h2>Episodio 1: O Distrito do Entretenimento</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/2x1.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>2x1: Tanjiro e seus companheiros recebem a missão de investigar o desaparecimento de moças
+                            no Distrito do Entretenimento de Yoshiwara.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/2x1.mp4" download class="download-link">⬇ Baixar Episódio 21</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="22">
+                <h2>Episodio 2: Encontro no distrito</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/2x2.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>2x2: No coração do Distrito do Entretenimento, Tanjiro enfrenta obstáculos e descobre a
+                            verdadeira natureza das operações de Muzan.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/2x2.mp4" download class="download-link">⬇ Baixar Episódio 22</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="23">
+                <h2>Episodio 3: O Hashira do Amor</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/2x3.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>2x3: Encontros inesperados revelam aliados poderosos. Os Hashiras se preparam para uma das
+                            batalhas mais intensas de suas vidas.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/2x3.mp4" download class="download-link">⬇ Baixar Episódio 23</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="24">
+                <h2>Episodio 4: A revelação de Muzan</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/2x4.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>2x4: A verdade sobre Muzan Kibutsuji se revela. Os caçadores enfrentam o demônio mais
+                            poderoso da história em um confronto devastador.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/2x4.mp4" download class="download-link">⬇ Baixar Episódio 24</a>
+                </div>
+            </section>
+
+            <section class="episódio" data-epnum="25">
+                <h2>Episodio 5: Esperança no horizonte</h2>
+                <div class="video-sinopse-group">
+                    <div class="video-item">
+                        <video controls class="videos" controlsList="nodownload"
+                            poster="./posters/Demon-Slayer-Kimetsu-no-Yaiba-episódios.jpg">
+                            <source src="./videos/2x5.mp4" type="video/mp4">
+                            Seu navegador não suporta o elemento de vídeo.
+                        </video>
+                    </div>
+                    <div class="sinopse">
+                        <p>2x5: Após a batalha do Distrito do Entretenimento, os caçadores celebram suas vitórias e
+                            preparam-se para novos desafios que estão por vir.</p>
+                    </div>
+                </div>
+                <div class="download-section">
+                    <a href="./videos/2x5.mp4" download class="download-link">⬇ Baixar Episódio 25</a>
+                </div>
+            </section>
+
+            <p class="mensagem-temporada">Mais episódios da 2ª Temporada em breve!</p>
+        </div>
+
+        <!-- ABA TEMPORADA 3 -->
+        <div id="Temporada3" class="tabcontent">
+            <h2 class="titulo-temporada">Terceira Temporada: Arco da Vila dos Ferreiros</h2>
+            <p class="mensagem-temporada">Episódios da 3ª Temporada em breve na plataforma!</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Demon Slayer Brasil | Site Criado por Fãs para Fãs</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/netlify-identity-widget@2.0.16/build/netlify-identity.min.js"></script>
+    <script src="nav.js" defer></script>
+    <script src="https://cdn.botpress.cloud/webchat/v3.3/inject.js" defer></script>
+    <script src="https://files.bpcontent.cloud/2025/10/20/21/20251020215451-F6I2SHDD.js" defer></script>
+    <script src="episodios.js" defer></script>
+    <script src="verificar-acesso.js" defer></script>
+</body>
+
+</html>

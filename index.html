@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Demon Slayer Brasil | Fan Site Oficial</title>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO DE NAVEGAÇÃO -->
+    <header>
+        <div class="header-nav">
+            <a class="sempre-header active-link" href="index.html">Início</a>
+            <a class="sempre-header" href="episodios.html">Episódios</a>
+            <a class="sempre-header" href="filmes.html">Filmes</a>
+            <a class="sempre-header" href="Hashiras.html">Hashiras</a>
+            <a class="sempre-header" href="Rank.html">Luas Superiores</a>
+            <a class="sempre-header" href="login.html">Login</a>
+            <button class="botao1" id="btnInscrever">inscreva-se</button>
+            <button class="botao1" id="btnLogin" style="display:none;">login</button>
+            <button class="botao1" id="btnSair" style="display:none;">sair</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO BANNER PRINCIPAL -->
+        <section class="hero-section">
+            <div class="hero-banner-container">
+                <img src="./img/hero_banner.jpg" alt="Demon Slayer Hero Banner" class="hero-banner-img">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <span class="hero-tag">FAN SITE OFICIAL</span>
+                    <h1 class="hero-title">DEMON SLAYER</h1>
+                    <h2 class="hero-subtitle">KIMETSU NO YAIBA</h2>
+                    <p class="hero-description">
+                        Acompanhe a jornada inabalável de Tanjiro Kamado em busca de uma cura para sua irmã Nezuko
+                        e na luta contra as terríveis Forças de Muzan Kibutsuji.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="episodios.html" class="hero-btn primary-btn">▶ Assistir Episódios</a>
+                        <a href="filmes.html" class="hero-btn secondary-btn">🎬 Ver Filmes</a>
+                        <a href="Hashiras.html" class="hero-btn accent-btn">⚔️ Conhecer os Hashiras</a>
+                        <a href="Rank.html" class="hero-btn Rank-btn">🌒 Conhecer os Luas Superiores</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DE RECURSOS / ACESSO RÁPIDO -->
+        <section class="home-section container-home">
+            <h2 class="section-title">Explore o Universo</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="card-badge">Série</div>
+                    <h3>Episódios</h3>
+                    <p>Assista aos episódios da 1ª Temporada em alta qualidade com player integrado e controle
+                        automático.</p>
+                    <a href="episodios.html" class="card-link">Ver Episódios &rarr;</a>
+                </div>
+
+                <div class="feature-card highlight-card">
+                    <div class="card-badge">Cinemas</div>
+                    <h3>Filmes Épicos</h3>
+                    <p>Confira Mugen Train (Trem Infinito) e a grandiosa batalha no Castelo Infinito.</p>
+                    <a href="filmes.html" class="card-link">Assistir Filmes &rarr;</a>
+                </div>
+
+                <div class="feature-card">
+                    <div class="card-badge">Destaque</div>
+                    <h3>Conheça os Hashiras mais poderosos da obra</h3>
+                    <p>Conheça todos os Hashiras e suas respirações.</p>
+                    <a href="Hashiras.html" class="card-link">Saber Mais &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- VITRINE DE PERSONAGENS PRINCIPAIS -->
+        <section class="home-section container-home">
+            <h2 class="section-title">Personagens Principais</h2>
+            <div class="characters-grid">
+
+                <div class="character-card">
+                    <div class="character-img-wrapper">
+                        <img src="./img/tanjiro_card.jpg" alt="Tanjiro Kamado" class="character-img">
+                    </div>
+                    <div class="character-info">
+                        <h3>Tanjiro Kamado</h3>
+                        <span class="char-role">Respiração da Água & Hinokami Kagura</span>
+                        <p>Um jovem bondoso que se torna Caçador de Demônios para transformar sua irmã Nezuko de volta
+                            em humana.</p>
+                    </div>
+                </div>
+
+                <div class="character-card">
+                    <div class="character-img-wrapper">
+                        <img src="./img/nezuko_card.jpg" alt="Nezuko Kamado" class="character-img">
+                    </div>
+                    <div class="character-info">
+                        <h3>Nezuko Kamado</h3>
+                        <span class="char-role">Demônio Protetor</span>
+                        <p>Irmã de Tanjiro que, mesmo transformada em demônio, mantém sua humanidade e luta ao lado dos
+                            caçadores.</p>
+                    </div>
+                </div>
+
+                <div class="character-card">
+                    <div class="character-img-wrapper">
+                        <img src="./img/zenitsu_card.jpg" alt="Zenitsu Agatsuma" class="character-img">
+                    </div>
+                    <div class="character-info">
+                        <h3>Zenitsu Agatsuma</h3>
+                        <span class="char-role">Respiração do Trovão</span>
+                        <p>Possui um talento oculto devastador que se revela com velocidade relâmpago quando ele
+                            adormece.</p>
+                    </div>
+                </div>
+
+                <div class="character-card">
+                    <div class="character-img-wrapper">
+                        <img src="./img/inosuke_card.jpg" alt="Inosuke Hashibira" class="character-img">
+                    </div>
+                    <div class="character-info">
+                        <h3>Inosuke Hashibira</h3>
+                        <span class="char-role">Respiração da Fera</span>
+                        <p>Criado por javalis nas montanhas, usa duas katanas serradas e possui sentidos selvagens
+                            apurados.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Demon Slayer Brasil | Site Criado por Fãs para Fãs</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/netlify-identity-widget@2.0.16/build/netlify-identity.min.js"></script>
+    <script src="nav.js" defer></script>
+    <script src="https://cdn.botpress.cloud/webchat/v3.3/inject.js" defer></script>
+    <script src="https://files.bpcontent.cloud/2025/10/20/21/20251020215451-F6I2SHDD.js" defer></script>
+    <script src="episodios.js" defer></script>
+</body>
+
+</html>

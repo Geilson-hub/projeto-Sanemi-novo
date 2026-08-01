@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Inscrição Confirmada | Demon Slayer Brasil</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-nav">
+            <a class="sempre-header" href="index.html">Início</a>
+            <a class="sempre-header active-link" href="episodios.html">Episódios</a>
+            <a class="sempre-header" href="filmes.html">Filmes</a>
+            <a class="sempre-header" href="Hashiras.html">Hashiras</a>
+            <a class="sempre-header" href="Rank.html">Luas Superiores</a>
+            <a class="sempre-header" href="login.html">Login</a>
+            <button class="botao1" id="btnInscrever">inscreva-se</button>
+            <button class="botao1" id="btnLogin" style="display:none;">login</button>
+            <button class="botao1" id="btnSair" style="display:none;">sair</button>
+        </div>
+    </header>
+
+    <main class="container-inscrever">
+        <div class="inscrever-card">
+            <div class="sucesso-icon">✓</div>
+            <h1 class="inscrever-title">Inscrição Realizada com Sucesso!</h1>
+            <p class="inscrever-desc" id="mensagemObrigado">
+                Agora você tem acesso aos downloads exclusivos dos episódios de Demon Slayer.
+                Volte para a página de episódios e aproveite!
+            </p>
+            <a href="episodios.html" class="butao2" style="text-align:center; text-decoration:none;">Ver Episódios</a>
+            <a href="login.html" class="butao2" style="text-align:center; text-decoration:none; margin-left:10px;">Login</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Demon Slayer Brasil | Site Criado por Fãs para Fãs</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/netlify-identity-widget@2.0.16/build/netlify-identity.min.js"></script>
+    <script src="nav.js" defer></script>
+        const dados = JSON.parse(sessionStorage.getItem('obrigado_dados'));
+        const msg = document.getElementById('mensagemObrigado');
+        if (dados && msg) {
+            msg.textContent = 'Obrigado por se inscrever, ' + dados.nome + '! Agora você tem acesso aos downloads exclusivos dos episódios de Demon Slayer. Volte para a página de episódios e aproveite!';
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Login | Demon Slayer Brasil</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-nav">
+            <a class="sempre-header" href="index.html">Início</a>
+            <a class="sempre-header" href="episodios.html">Episódios</a>
+            <a class="sempre-header" href="filmes.html">Filmes</a>
+            <a class="sempre-header" href="Hashiras.html">Hashiras</a>
+            <a class="sempre-header" href="Rank.html">Luas Superiores</a>
+            <a class="sempre-header active-link" href="login.html">Login</a>
+            <button class="botao1" id="btnInscreverNav">inscreva-se</button>
+            <button class="botao1" id="btnLoginNav" style="display:none;">login</button>
+            <button class="botao1" id="btnSairNav" style="display:none;">sair</button>
+        </div>
+    </header>
+
+    <main class="container-inscrever">
+        <div class="inscrever-card">
+            <div class="inscrever-badge">FAN SITE OFICIAL</div>
+            <h1 class="inscrever-title">Login</h1>
+            <p class="inscrever-desc">
+                Já é inscrito? Faça login para acessar os downloads e a visualização completa dos episódios.
+            </p>
+
+            <form id="formLogin" class="inscrever-form">
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Sua senha" required>
+                </div>
+
+                <button type="submit" class="butao2">Entrar</button>
+            </form>
+
+            <p class="inscrever-aviso" id="avisoLogin">
+                Não tem conta? <a href="inscrever-se.html">Inscreva-se agora</a>.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Demon Slayer Brasil | Site Criado por Fãs para Fãs</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/netlify-identity-widget@2.0.16/build/netlify-identity.min.js"></script>
+    <script src="nav.js" defer></script>
+    <script src="login.js" defer></script>
+</body>
+
+</html>
